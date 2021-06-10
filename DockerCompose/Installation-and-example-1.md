@@ -30,6 +30,8 @@ Creating docker-compose: docker-compose.yml
           - "8080:8080"
             
     
+-----------
+
     docker-compose up -d
     
     docker ps
