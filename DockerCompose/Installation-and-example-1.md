@@ -46,6 +46,11 @@ Creating docker-compose: docker-compose.yml
             
     See the list of databses: show databases;
     
+    exit
+    
+    exit
+    
+    
     See the mysql commands: https://gist.github.com/hofmannsven/9164408
     
     docker-compose down
