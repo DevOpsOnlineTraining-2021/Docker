@@ -15,4 +15,18 @@
 
 
 
+### Container architecture
+
+A container is an isolated, lightweight silo for running an application on the host operating system. Containers build on top of the host operating system's kernel, and contain only apps and some lightweight operating system APIs and services that run in user mode, as shown in this diagram.
+
+
+![image](https://user-images.githubusercontent.com/24622526/122006529-8c90e900-cdd4-11eb-852d-250dc5b975c9.png)
+
+
+
+### Container architecture
+
+In contrast to containers, VMs run a complete operating system–including its own kernel–as shown in this diagram.
+
+![image](https://user-images.githubusercontent.com/24622526/122006943-10e36c00-cdd5-11eb-93fa-507840df32e0.png)
 
