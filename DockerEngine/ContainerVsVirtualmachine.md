@@ -1,6 +1,7 @@
 # Containers vs. virtual machines
 
 
+* https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm
 * https://www.redhat.com/en/topics/containers/containers-vs-vms
 * https://www.vmware.com/topics/glossary/content/vms-vs-containers
 * https://www.ibm.com/cloud/blog/containers-vs-vms
