@@ -53,15 +53,17 @@
 
 * 5.1. Create a docker-compose file & copy the content from [docker-compose.yml](https://github.com/DevOpsBasicSetup/Phase-2/blob/master/Docker/DockerStacks/docker-compose.yml)
 
-* 5.2. docker stack deploy -c docker-compose.yml devops
+* 5.2. `docker stack deploy -c docker-compose.yml devops`
 
-* docker service ls  # Wait for some time to create replicas for services before you access the application from browser. See the below image, once stack deployed, its preparing to create replicas for our services.
+* `docker service ls`  # Wait for some time to create replicas for services before you access the application from browser. See the below image, once stack deployed, its preparing to create replicas for our services.
 
-* docker service ps devops_cicd
+* `docker service ps devops_cicd`
 
-* docker service ps devops_devopsweb
+* `docker service ps devops_devopsweb`
 
-* docker stack rm devops
+* Update `docker-compose.yml` file the image tag version from `1.0.14` to `1.0.15`, and then run the command `docker stack deploy -c docker-compose.yml devops`
+
+* `docker stack rm devops`
 
 ![image](https://user-images.githubusercontent.com/24622526/44851535-2604a580-ac50-11e8-91fc-6918c3871d32.png)
 
