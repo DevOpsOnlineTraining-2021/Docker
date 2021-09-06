@@ -49,3 +49,24 @@
 
     systemctl status jenkins
     
+##### Install Apache Web Server
+
+    sudo apt update
+    
+    sudo apt install apache2
+    
+    sudo systemctl status apache2
+    
+    sudo systemctl stop apache2
+    
+    sudo systemctl start apache2
+    
+    sudo systemctl restart apache2
+    
+    sudo systemctl reload apache2 //if any ocnfiguration changes
+    
+    sudo systemctl disable apache2 //disable the auto restart web server when system reboot
+    
+    sudo systemctl enable apache2 //enable the auto restart web server when system reboot
+    
+    
