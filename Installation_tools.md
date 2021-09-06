@@ -69,4 +69,40 @@
     
     sudo systemctl enable apache2 //enable the auto restart web server when system reboot
     
+    HTML file location: /var/www/html/index.html
+    
+    access the URL: http://publicIP:80 or http://publicIP
+    
+    
+    uninstall apache2:
+    
+    sudo systemctl stop apache2
+    
+    sudo apt-get --purge remove apache2
+    
+    whereis apache2
+    
+    sudo rm -rf /usr/sbin/apache2 /usr/lib/apache2 /usr/share/apache2 /usr/share/man/man8/apache2.8.gz
+    
+    
+##### Install nginx Web Server
+
+
+    sudo apt install nginx
+    
+    systemctl status nginx
+    
+    sudo systemctl stop nginx
+    
+    sudo systemctl start nginx
+    
+    sudo systemctl restart nginx
+    sudo systemctl reload nginx
+    sudo systemctl disable nginx
+    sudo systemctl enable nginx
+
+    HTML file location: /usr/share/nginx/html/index.html Or /var/www/html/
+    
+    access the URL: http://publicIP:80 or http://publicIP
+    
     
