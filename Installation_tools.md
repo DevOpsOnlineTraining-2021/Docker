@@ -130,3 +130,15 @@
     sudo systemctl restart tomcat9
     
     removing tomcat: sudo rm -rf /etc/tomcat9/
+
+
+##### Installation of docker
+
+
+    apt update
+    
+    apt install docker.io -y
+    
+    docker version
+    
+    
