@@ -141,4 +141,18 @@
     
     docker version
     
+
+##### Install Ansible
+
+
+    sudo apt upgrade
     
+    apt search ansible
+    
+    apt-cache search ansible
+    
+    apt show ansible
+    
+    sudo apt install ansible -y
+    
+    ansible --version
