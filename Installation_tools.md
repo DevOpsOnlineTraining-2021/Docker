@@ -106,3 +106,27 @@
     access the URL: http://publicIP:80 or http://publicIP
     
     
+##### Install Tomcat Web Server
+
+    #sudo apt-cache search tomcat
+    
+    apt install tomcat9 -y
+    
+    Access the URL: http://publicIP:8080 
+    
+    sudo systemctl enable tomcat9
+    
+    sudo systemctl disable tomcat9
+
+    <tomcat-users>
+    <!--
+        Comments
+    -->
+       <role rolename="admin-gui"/>
+       <role rolename="manager-gui"/>
+       <user username="admin" password="admin_password" roles="admin-gui,manager-gui"/>
+    </tomcat-users>
+    
+    sudo systemctl restart tomcat9
+    
+    removing tomcat: sudo rm -rf /etc/tomcat9/
