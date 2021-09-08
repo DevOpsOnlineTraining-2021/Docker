@@ -1,4 +1,6 @@
 
+* Create EC2 instance using Ubuntu AMI
+
 ##### Install Java
 
     sudo apt update
