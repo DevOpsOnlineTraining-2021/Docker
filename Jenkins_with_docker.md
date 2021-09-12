@@ -1,4 +1,6 @@
 
+Ref: https://www.jenkins.io/doc/book/pipeline/docker/
+
 #### Containerized builds
 
 Step-1: Install Jenkins
