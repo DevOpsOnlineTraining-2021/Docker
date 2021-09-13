@@ -17,5 +17,5 @@ Step-5: Create pipeline job and update the job configuration with below git repo
       Git Branch: containerized-build
       Jenkins file: https://github.com/venkatasykam/DevOpsWebApp/blob/containerized-build/Jenkinsfile
 
-Step-6: Run the build
+Step-6: Execute the job and observer the build console output.
 
