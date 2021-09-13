@@ -9,3 +9,6 @@ Step-2: Create a new pipeline job and add configure below Git repo URL.
       Jenkinsfile: https://github.com/venkatasykam/DevOpsWebApp/blob/containerized-build3/Jenkinsfile
       
 Step-3: Execute the job and observer the build console output.
+
+![image](https://user-images.githubusercontent.com/24622526/133082492-85cfd8d2-c711-46f1-890b-8311a0cb65e7.png)
+
