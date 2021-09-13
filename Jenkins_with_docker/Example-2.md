@@ -26,4 +26,4 @@ Step-2: Create a new pipeline job and add configure job with below script.
       }
 
 
-Step-3: Run the job
+Step-3: Execute the job and observer the build console output.
