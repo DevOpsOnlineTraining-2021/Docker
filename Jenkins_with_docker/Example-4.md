@@ -15,7 +15,7 @@ Build workspace available on "/root/jenkins"  becasue of VOLUME concept unsed in
 ![image](https://user-images.githubusercontent.com/24622526/133076494-9b16976f-9a5f-409b-9110-706c50ff95f9.png)
 
 
-**On server**:
+**On server (jenkins node)**:
 
 ![image](https://user-images.githubusercontent.com/24622526/133076769-437b69e1-047a-4e0a-b2f1-3343361c00e8.png)
 
