@@ -3,7 +3,7 @@ Ref: https://www.jenkins.io/doc/book/pipeline/docker/
 
 #### Containerized builds
 
-Step-1: Create One EC2 instance and then connect to it. Install Jenkins - refer: [JenkinsSetup](https://github.com/DevOpsOnlineTraining-2021/Jenkins/tree/master/JenkinsSetup)
+Step-1: Create One EC2 instance and then connect to it. Install Jenkins - refer: [JenkinsSetup](https://github.com/DevOpsOnlineTraining-2021/Jenkins/tree/master/JenkinsSetup). Install "docker pipeline" jenkins plugin.
 
 Step-2: Create another EC2 instance and then connect to it. Install git and java.
 
