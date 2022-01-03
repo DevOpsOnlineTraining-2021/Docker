@@ -7,6 +7,6 @@ OS: Windows - choco
 
 OS: Amazon Linux, RedHat, centOs - yum
 
-OS: centOs - dnf 
+OS: centOs - dnf , yum
 
 OS: SUSE Linux - zypper
