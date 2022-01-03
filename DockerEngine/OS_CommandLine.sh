@@ -1,12 +1,14 @@
 
 #### OS and Package manager
 
-OS: Ubuntu or debian - apt or apt-get
+> Ubuntu or debian - apt or apt-get
 
-OS: Windows - choco
+> Windows - choco
 
-OS: Amazon Linux, RedHat, centOs - yum
+> Amazon Linux, RedHat, centOs - yum
 
-OS: centOs - dnf , yum
+> centOs - dnf , yum
 
-OS: SUSE Linux - zypper
+> SUSE Linux - zypper
+
+> macOs - brew 
